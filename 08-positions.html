@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./08-positions.css">
+    <title>Positions</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <p>This div has a fixed position</p>
+        </div>
+        <div class="positioning">
+            <h1>Position</h1>
+            <p>The position property specifies the type of positioning method used for an element</p>
+            <p>The four position values are:</p>
+            <ul>
+                <li><strong>Fixed:</strong> this will pin something to a spot and it will stay there as the user scrolls. (ex. nav bars) Fixed position takes elements out of the normal document flow</li>
+                <li><strong>Static:</strong> this is the default setting. It is not affected by top, bottom, left, and right properties. It is always positioned according to the normal flow of the page.</li>
+                <li><strong>Relative:</strong> does not take the element out of the normal document flow. Still appears within its space/div/container, but allows it to be offset a bit from the top, bottom, right, and left. These properties will move it away from its normal position. Other content will not be adjusted to fit into any gap left by the element.</li>
+                <li><strong>Absolute:</strong> takes element out of the normal document flow. If a parent element position is set to relative, and the child element is set to absolute, the child element's new (0,0) coordinate will be the upper left hand corner of the parent element instead of the whole page.</li>
+            </ul>
+            <p>The <strong>Z-index</strong> property allows you to override the normal stacking order of the page. The default z-index is 0, and you can set that value to be positive or negative. An element with a greater z-index will stack in front of an element with the lower z-index. If the two elements have the same z-index, or don't have one assigned, the element positioned last in the HTML will show on top. You must have a position assigned in order to assign a z-index.</p>
+        </div>
+        <div class="lotsoftext">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque unde expedita cum corrupti libero provident eius, omnis ipsa similique architecto eaque nulla odit. Ad, dolor! Voluptates earum sit autem sequi.</p>
+            <p>Placeat fugiat earum dolorem quidem rem harum incidunt itaque consequuntur maiores error corrupti nulla corporis, quis deleniti vitae doloribus saepe, nemo ratione repellat veritatis. Laborum vero atque accusamus ex molestias!</p>
+            <p>Magnam quae magni porro debitis illo officiis ab aperiam. Expedita saepe explicabo vel reiciendis dolorum, aperiam culpa aliquid numquam adipisci voluptatibus, eveniet odio maiores obcaecati eligendi quidem deleniti architecto commodi?</p>
+            <p>Facere tenetur quisquam, illo, veritatis nobis ex in alias quia velit autem dolore, molestiae laboriosam obcaecati maiores ipsam. Quam aliquam reiciendis dolores libero cum, numquam optio ipsam deleniti fuga praesentium.</p>
+            <p>Corrupti placeat optio, nesciunt ex repudiandae nisi harum necessitatibus quis corporis rerum voluptate maxime totam est fuga. Doloremque, quam modi exercitationem voluptate totam tenetur, quasi voluptatum soluta ipsum nulla quaerat.</p>
+        </div>
+    </div>
+</body>
+</html>
