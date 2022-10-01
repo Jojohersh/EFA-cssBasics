@@ -1,0 +1,17 @@
+.wrapper {
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.example-one {
+    height: 200px;
+    width: 50%;
+}
+
+.example-two img {
+    width: 400px;
+    height: 400px;
+}
