@@ -1,0 +1,9 @@
+/* this is a css comment*/
+body {
+    background-color: #d3d3d3;
+}
+
+/* this is another css comment*/
+.wrapper {
+    border: 10px solid red;
+}
